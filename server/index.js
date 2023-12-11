@@ -20,10 +20,10 @@ app.use("/", Routes);
 const __filename = fileURLToPath(import.meta.url); // Use fileURLToPath to get the filename
 const __dirname = dirname(__filename); // Use dirname to get the directory name
  
-app.use(express.static(path.join(__dirname, "../client/build")));
+app.use(express.static(path.join(__dirname, "./build")));
  
 app.use("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "../client/build/index.html"));
+  res.sendFile(path.join(__dirname, "./build/index.html"));
 });
  
 const PORT = 8000;
