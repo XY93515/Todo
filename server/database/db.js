@@ -3,11 +3,11 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const NAME = process.env.DB_NAME;
 
+const Name=process.env.DB_NAME;
 const Connection = () => {
 
-    const MONGODB_URI = `mongodb://localhost:27017/${NAME}`;
+    const MONGODB_URI = `${Name}`;
 
     mongoose.connect(MONGODB_URI, { useNewUrlParser: true,family:4 });
 
