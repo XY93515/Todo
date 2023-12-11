@@ -9,7 +9,7 @@ const app = express();
 
 
 app.use(cors());
-
+console.log("hloo");
 app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/api/v1/auth',authRoutes);
