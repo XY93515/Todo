@@ -34,3 +34,5 @@ Defines data models representing tasks. <br>
 -> Implements server-side validation to ensure task data validity. Tasks must have a title and a valid status. <br>
 5) Error Handling <br>
 -> Properly handles errors with appropriate error messages and status codes. <br>
+Deployed Link <br>
+https://todoist-paridhi.vercel.app/
