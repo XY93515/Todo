@@ -1,0 +1,143 @@
+
+
+body {
+  background-image: url("/public/images/back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 50%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 75px;
+  color: #2c3e50;
+  font-weight: 350;
+  font-family:'italic';
+  text-decoration: underline;
+}
+
+input {
+  font-size: 20px;
+  color: #2c3e50;
+  width: 110%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #2c3e50;
+  padding: 5px;
+}
+
+.task {
+  background-color: #34495e;
+  width:105%;
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  height:50%
+}
+
+.task span {
+  font-size:18px;
+  color: #FFFFFF;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+#status{
+  background-color: #68626e;
+  color: #fffefe;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button.selected {
+  color: #FFF;
+  background-color: light gray;
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: #ee1630;
+  width: 170px;
+}
+
+.my-custom-button {
+  display: inline-block;
+  background-color:  #6c6777;
+  padding: 20px;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+  border: 4px double #cccccc;
+  border-radius: 10px;
+  font-size: 28px;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.5s;
+}
+
+.my-custom-button:hover {
+  background-color: rgb(38, 43, 38);
+  color: white;
+}
+
+.todo-text {
+  position: relative;
+}
+
+.todo-description {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #241e1e;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: opacity 0.5s ease; /* Smooth transition effect */
+  z-index: 100; /* Ensure the description appears above other content */
+}
+
+.todo-text:hover .todo-description {
+  display:inline-block;
+}
+
+.title_desc{
+  text-decoration: underline;
+}

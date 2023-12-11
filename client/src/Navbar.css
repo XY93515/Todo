@@ -1,0 +1,15 @@
+.navbar-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 23px; 
+    /* Add padding for better styling */
+    size:50px;
+  }
+  .btn-logout {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    width:44px;
+  }
+ 
+  
+  

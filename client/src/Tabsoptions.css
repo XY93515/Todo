@@ -1,0 +1,54 @@
+/* .filter-heading {
+    font-size: 2em;
+    margin-bottom: 5px;
+    flex-direction: column;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width:150%;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.button {
+    width: 48%; /* Set the width to accommodate two buttons with a small gap */
+    /* margin: 5px 1%; /* Add a small gap between buttons */
+    /* background-color: lightgray;
+} 
+
+.selected {
+    background-color: dimgray;
+}  */
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 108%; /* Adjusted width to 100% */
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filter-heading {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.button {
+    width: 48%;
+    margin: 5px 1%;
+    background-color: lightgray;
+}
+
+.selected {
+    background-color: dimgray;
+}
