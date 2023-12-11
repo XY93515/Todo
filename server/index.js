@@ -26,7 +26,8 @@ app.use("*", function (req, res) {
   res.sendFile(path.join(__dirname, "./build/index.html"));
 });
  
-const PORT = 8000;
+const PORT = process.env.PORT;
+
  
 Connection();
  
