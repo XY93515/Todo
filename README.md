@@ -35,4 +35,7 @@ Defines data models representing tasks. <br>
 5) Error Handling <br>
 -> Properly handles errors with appropriate error messages and status codes. <br>
 Deployed Link <br>
-https://todoist-paridhi.vercel.app/
+https://todoist-paridhi.vercel.app/<br>
+<br>
+Live Demo Video<br>
+https://www.loom.com/share/2a5cf472421b4cf2848bf163721f7345?sid=2083f5fe-1799-40bc-ae00-6a83dec84cc5
